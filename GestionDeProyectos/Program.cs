@@ -3,35 +3,35 @@
 
 using GestionDeProyectos;
 
-//Creacion de un objeto de la clase Proyecto
-Proyecto proyecto = new Proyecto()
+internal class Program
 {
-    NombreProyecto = "Sistema de Gestion",
-    FechaInicio = DateTime.Now,
-    FechaFin = DateTime.Now.AddMonths(6),
-    EstadoProyecto = "En Proceso"
-};
+    private static void Main(string[] args)
+    {
+        //Creacion de un objeto de la clase Proyecto
+        List<Empleado> empleados = new List<Empleado>();
+        Proyecto proyecto = new Proyecto("Sistema de Gestion de Proyectos", DateTime.Now, DateTime.Now.AddMonths(6), "En Proceso", empleados);
+        
+        //Creacion de los empleados
+        Empleado empleado1 = new Empleado("Isaac Lopez", "Desarrollador", 160);
+        Empleado empleado2 = new Empleado("Juanito", "Tester", 140);
 
-//Creacion de los empleados
-Empleado empleado1 = new Empleado { Nombre = "Isaac Lopez", Posicion = "Desarrollador"};
-Empleado empleado2 = new Empleado { Nombre = "Juanito", Posicion = "Tester"};
-GerenteProyecto gerente = new GerenteProyecto { Nombre = "Pancho", Posicion = "Gerente", CantidadProyectos = 3 };
+        //Creacion de un gerente para el Proyecto
+        GerenteProyecto gerente = new GerenteProyecto("Pancho", "Gerente", 180, 3);
 
-//Asignacion de las horas trabajadas
-empleado1.SetHorasTrabajadas(160);
-empleado2.SetHorasTrabajadas(140);
-gerente.SetHorasTrabajadas(180);
+        //Agregacion de los empleados al proyecto
+        proyecto.AgregarEmpleado(empleado1);
+        proyecto.AgregarEmpleado(empleado2);
+        proyecto.AgregarEmpleado(gerente);
 
-//Intento de agragar un numero negativo en horas
-empleado1.SetHorasTrabajadas(-10);
 
-//Agregacion de los empleados al proyecto
-proyecto.AgregarEmpleado(empleado1);
-proyecto.AgregarEmpleado(empleado2);
-proyecto.AgregarEmpleado(gerente);
+        //Intento de agragar un numero negativo en horas
+        empleado1.SetHorasTrabajadas(-10);
 
-//Simulacion de generacion y envio de reporte
 
-proyecto.EnviarReporte();
+        //Simulacion de generacion y envio de reporte
 
-Console.WriteLine($"Total de horas trabajadas en el proyecto: {proyecto.CalcularTotalHorasTrabajadas}");
+        proyecto.EnviarReporte();
+
+        Console.WriteLine($"Total de horas trabajadas en el proyecto: {proyecto.CalcularTotalHorasTrabajadas}");
+    }
+}

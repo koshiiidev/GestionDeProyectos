@@ -13,3 +13,18 @@ F:\Repos\Practica Programacion\Gestion de Proyectos\GestionDeProyectos\GestionDe
 F:\Repos\Practica Programacion\Gestion de Proyectos\GestionDeProyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.pdb
 F:\Repos\Practica Programacion\Gestion de Proyectos\GestionDeProyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.genruntimeconfig.cache
 F:\Repos\Practica Programacion\Gestion de Proyectos\GestionDeProyectos\GestionDeProyectos\obj\Debug\net8.0\ref\GestionDeProyectos.dll
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\bin\Debug\net8.0\GestionDeProyectos.exe
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\bin\Debug\net8.0\GestionDeProyectos.deps.json
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\bin\Debug\net8.0\GestionDeProyectos.runtimeconfig.json
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\bin\Debug\net8.0\GestionDeProyectos.dll
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\bin\Debug\net8.0\GestionDeProyectos.pdb
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.AssemblyInfoInputs.cache
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.AssemblyInfo.cs
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.csproj.CoreCompileInputs.cache
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.sourcelink.json
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.dll
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\refint\GestionDeProyectos.dll
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.pdb
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\GestionDeProyectos.genruntimeconfig.cache
+F:\Repos\Practica Programacion\Gestion de Proyectos\Gestion de Proyectos\GestionDeProyectos\obj\Debug\net8.0\ref\GestionDeProyectos.dll

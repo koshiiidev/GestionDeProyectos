@@ -2,16 +2,16 @@
 //GitHub: KoshiiiDev
 
 using GestionDeProyectos;
+using System.Collections.Generic;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
         //Creacion de un objeto de la clase Proyecto
-        List<Empleado> empleados = new List<Empleado>();
-        Proyecto proyecto = new Proyecto("Sistema de Gestion de Proyectos", DateTime.Now, DateTime.Now.AddMonths(6), "En Proceso", empleados);
         
-        //Creacion de los empleados
+        Proyecto proyecto = new Proyecto("Sistema de Gestion de Proyectos", DateTime.Now, DateTime.Now.AddMonths(6), "En Proceso");
+        
         Empleado empleado1 = new Empleado("Isaac Lopez", "Desarrollador", 160);
         Empleado empleado2 = new Empleado("Juanito", "Tester", 140);
 
@@ -32,6 +32,6 @@ internal class Program
 
         proyecto.EnviarReporte();
 
-        Console.WriteLine($"Total de horas trabajadas en el proyecto: {proyecto.CalcularTotalHorasTrabajadas}");
+        Console.WriteLine($"Total de horas trabajadas en el proyecto: {proyecto.CalcularTotalHorasTrabajadas()}");
     }
 }

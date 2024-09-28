@@ -12,15 +12,16 @@ namespace GestionDeProyectos
         public DateTime FechaInicio;
         public DateTime FechaFin;
         public string EstadoProyecto;
-        private List<Empleado> empleados;
+        private List<Empleado> empleados = new List<Empleado>();
 
-        public Proyecto(string nombreProyecto, DateTime fechaInicio, DateTime fechaFin, string estadoProyecto, List<Empleado> empleados)
+        public Proyecto(string nombreProyecto, DateTime fechaInicio, DateTime fechaFin, string estadoProyecto)
         {
             NombreProyecto = nombreProyecto;
             FechaInicio = fechaInicio;
             FechaFin = fechaFin;
             EstadoProyecto = estadoProyecto;
-            empleados = new List<Empleado>();
+            
+            
         }
 
         //Getters & Setters
@@ -69,7 +70,9 @@ namespace GestionDeProyectos
 
         public void AgregarEmpleado(Empleado empleado)
         {
+            
             empleados.Add(empleado);
+            Console.WriteLine($"{empleado.GetNombre()} agregado exitosamente al proyecto: {GetNombreProyecto()}");
         }
 
         public int CalcularTotalHorasTrabajadas()
@@ -95,7 +98,7 @@ namespace GestionDeProyectos
 
             foreach (var empleado in empleados)
             {
-                reporte += $"- {empleado.GetNombre}: {empleado.GetHorasTrabajadas} horas\n";
+                reporte += $"- {empleado.GetNombre()}: {empleado.GetHorasTrabajadas()} horas\n";
             }
 
             return reporte;

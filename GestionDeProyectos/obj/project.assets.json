@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Repos\\Practica Programacion\\Gestion de Proyectos\\GestionDeProyectos\\GestionDeProyectos\\GestionDeProyectos.csproj",
+      "projectUniqueName": "F:\\Repos\\Practica Programacion\\Gestion de Proyectos\\Gestion de Proyectos\\GestionDeProyectos\\GestionDeProyectos.csproj",
       "projectName": "GestionDeProyectos",
-      "projectPath": "F:\\Repos\\Practica Programacion\\Gestion de Proyectos\\GestionDeProyectos\\GestionDeProyectos\\GestionDeProyectos.csproj",
+      "projectPath": "F:\\Repos\\Practica Programacion\\Gestion de Proyectos\\Gestion de Proyectos\\GestionDeProyectos\\GestionDeProyectos.csproj",
       "packagesPath": "C:\\Users\\XPC\\.nuget\\packages\\",
-      "outputPath": "F:\\Repos\\Practica Programacion\\Gestion de Proyectos\\GestionDeProyectos\\GestionDeProyectos\\obj\\",
+      "outputPath": "F:\\Repos\\Practica Programacion\\Gestion de Proyectos\\Gestion de Proyectos\\GestionDeProyectos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\XPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
